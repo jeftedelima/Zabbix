@@ -10,15 +10,12 @@ ARQLOG=${DIRBACKUP}/zbxLogFile.log
 NOME=filesConf_${DATA}
 
 #	Verifica se existe o diretorio temporario se nao cria.
-
 [ -d ${DIRTEMP} ] || mkdir -p ${DIRTEMP}
 
 #	Verifica se existe o diretorio de backup , se nao cria.
-
 [ -d ${DIRBACKUP} ] || mkdir -p ${DIRBACKUP}
 
 #	Copiando os arquivos para backup
-
 echo "Backup iniciado - ${DATALOG}" >> ${ARQLOG}
 
 cp /etc/mysql/my.cnf ${DIRTEMP}
