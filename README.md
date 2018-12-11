@@ -1,3 +1,0 @@
-# Zabbix
-Zabbix Utils
-
