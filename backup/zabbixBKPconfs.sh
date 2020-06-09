@@ -24,7 +24,7 @@ cp -r /usr/lib/zabbix/* ${DIRTEMP}
 cp /etc/crontab ${DIRTEMP}
 cp -r /etc/apache2 ${DIRTEMP}
 cp -r /usr/share/zabbix ${DIRTEMP}
-cp -r /etc/php5 ${DIRTEMP}
+cp -r /etc/php/ ${DIRTEMP}
 cp /etc/network/interfaces ${DIRTEMP}
 cp -r /var/lib/grafana ${DIRTEMP}
 
